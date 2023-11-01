@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Chatroom</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Class Chatroom</h1>
+        <div id="chat-messages">
+            <!-- Messages will be displayed here -->
+        </div>
+        <form id="chat-form">
+            <input type="text" id="message" name="message" placeholder="Type your message" />
+            <input type="file" id="image-upload" accept="image/*" />
+            <input type="submit" value="Send" />
+        </form>
+        <!-- Button for accepting terms of service with a link -->
+        <div id="terms-of-service">
+            <p>By using this service, you accept the <a href="https://legal.sdsrp.com/chat/terms-of-service/" target="_blank">Terms of Service</a>.</p>
+        </div>
+    </div>
+    <!-- Include jQuery and script.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
